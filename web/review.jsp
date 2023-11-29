@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Nov 22, 2023, 2:08:54 AM
+    Document   : review
+    Created on : Nov 30, 2023, 2:10:09 AM
     Author     : kirkb
 --%>
 
@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <a href="library.jsp">Library</a>
-        <a href="settings.jsp">Settings</a>
+        <h1>How was your experiece?</h1>
     </body>
 </html>
