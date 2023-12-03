@@ -10,19 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Workout Library</title>
+        <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="Exercise"><a href="push_up.jsp"><img src="" alt="picture of a push up">Push Up</div></a>
-        <div class="Exercise"><img src="" alt="picture of a pull up">Pull Up</div>
-        <div class="Exercise"><img src="" alt="picture of a up">Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
-        <div class="Exercise"><img src="" alt="picture of a push up">Push Up</div>
+        <div class="exercise">
+            <a href="push_up.jsp"><img src="" alt="picture of a push up">Push Up</a>
+        </div>
     </body>
 </html>
