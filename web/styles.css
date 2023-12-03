@@ -32,13 +32,84 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     background-color: var(--darkgray);
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: var(--darkblue);
 }
 
-div.exercise {
+div.exerciseDiv {
     background-color: black;
     height: var(--ExerciseHeight);
     width: var(--ExerciseWidth);
     border-radius: 28px;
+    display: flex;
+    flex-direction: column-reverse;
 }
+
+/*
+div.exerciseDiv:nth-of-type(1){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(2){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(3){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(4){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(5){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(6){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(7){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(8){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(9){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(10){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(11){
+    background-image: ;
+}
+div.exerciseDiv:nth-of-type(12){
+    background-image: ;
+}
+*/
+
+.exerciseText {
+    margin: 0 0 20px 20px;
+}
+
+a.exerciseLink { 
+    font-size: 2rem;
+    font-family: 'Poppins', 'serif';
+    text-decoration: none;
+}
+
+a, a:visited {
+    .exerciseText{      
+        transition: 0.2s;
+        color: var(--lightgray);
+    }
+}
+
+a:hover {
+    .exerciseText{
+        font-size: 3rem;
+        transition: 0.2s;
+        
+    }
+}
+

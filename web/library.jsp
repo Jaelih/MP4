@@ -13,8 +13,10 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="exercise">
-            <a href="push_up.jsp"><img src="" alt="picture of a push up">Push Up</a>
-        </div>
+        <a class="exerciseLink" href="push_up.jsp">
+            <div class="exerciseDiv">
+                <p class="exerciseText" >Push Up<p>
+            </div>
+        </a>
     </body>
 </html>
