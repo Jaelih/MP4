@@ -13,6 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     --darkgray: #D9D9D9;
     --gray: #ECEDEE;
     --lightgray: #FCFCFC;
+    --black: #000000;
     
     --ExerciseHeight: 200px;
 }
@@ -20,24 +21,97 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 @media(max-width: 600px) {
         :root{
             --ExerciseWidth: 80vw;
+            --maxRows: 12;
+            --maxColumns: 1;
         }
     }
 @media(min-width: 601px){
         :root{   
             --ExerciseWidth: 40vw;
+            --maxRows: 6;
+            --maxColumns: 2;
         }
     }
 
-#myHeader #myFooter {
+header {
     background-color: var(--darkgray);
+    height: 160px;
+    width: 100vw;
+}
+
+.headerLogo {
+    height: 120px;
+    width: 300px;
+}
+
+.headerOption, .headerOption:visited {
+    font-size: 2rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.activityHub {
+    grid-column-start: 3;
+}
+
+.library {
+    
+}
+
+.settings {
+    
+}
+
+.headerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 160px;
+    justify-items: center;
+    align-items: center;
 }
 
 html {
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--darkblue);
+    margin: 0;
+}
+
+.exerciseGrid {
+    margin: 50px 0 50px 0;;
+    display: grid;
+    grid-template-columns: repeat(var(--maxColumns), 1fr);
+    grid-template-rows: repeat(var(--maxRows), 200px);
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+a.exerciseLink { 
+    font-size: 2rem;
+    display: block;
+    height: var(--ExerciseHeight);
+    width: var(--ExerciseWidth);
+    font-family: 'Poppins', 'serif';
+    text-decoration: none;
+}
+
+a, a:visited {
+    .exerciseText{      
+        transition: 0.2s;
+        color: var(--lightgray);
+    }
+}
+
+a:hover {
+    .exerciseText{
+        font-size: 3rem;
+        transition: 0.2s;
+        
+    }
 }
 
 div.exerciseDiv {
@@ -92,24 +166,58 @@ div.exerciseDiv:nth-of-type(12){
     margin: 0 0 20px 20px;
 }
 
-a.exerciseLink { 
-    font-size: 2rem;
-    font-family: 'Poppins', 'serif';
-    text-decoration: none;
+footer {
+    background-color: var(--darkgray);
+    height: 160px;
+    width: 100vw;
 }
 
-a, a:visited {
-    .exerciseText{      
-        transition: 0.2s;
-        color: var(--lightgray);
-    }
+.footerDiv {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 40px);
+    justify-items: center;
 }
 
-a:hover {
-    .exerciseText{
-        font-size: 3rem;
-        transition: 0.2s;
-        
-    }
+.footerLogo {
+    height: 70px;
+    width: 160px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
 }
 
+.footer.slogan {
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.footer.contact {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-self: end;
+    margin: 0;
+}
+
+.footer.email {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    margin: 0;
+}
+
+.footer.phone {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-self: start;
+    margin: 0;
+}
+
+.footer.copyright {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    align-self: center;
+    margin: 0;
+}
