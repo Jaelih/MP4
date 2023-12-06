@@ -29,76 +29,76 @@
         </div>
     </header>
     <body>
-        <div class="exerciseGrid">
-            <a class="exerciseLink" href="push_up.jsp">
+        <div class="exercisesGrid">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
                     <p class="exerciseText" >Push Up<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Diamond Push Up<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Pull Up<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Sit Up<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Bicep Curl<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Lateral Raise<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Squat<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Pistol Squat<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Dumbell Row<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Leg Raise<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Burpee<p>
                 </div>
             </a>
             
-            <a class="exerciseLink" href="push_up.jsp">
+            <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv">
-                    <p class="exerciseText" >Exercise<p>
+                    <p class="exerciseText" >Jumping Jack<p>
                 </div>
             </a>
         </div>
