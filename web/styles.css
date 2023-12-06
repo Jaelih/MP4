@@ -19,20 +19,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 @media(max-width: 600px) {
-        :root{
-            --ExerciseWidth: 80vw;
-            --maxRows: 12;
-            --maxColumns: 1;
-        }
+    :root{
+        --ExerciseWidth: 80vw;
+        --maxRows: 12;
+        --maxColumns: 1;
     }
+}
 @media(min-width: 601px){
-        :root{   
-            --ExerciseWidth: 40vw;
-            --maxRows: 6;
-            --maxColumns: 2;
-        }
+    :root{   
+        --ExerciseWidth: 40vw;
+        --maxRows: 6;
+        --maxColumns: 2;
     }
-
+}
+    
 header {
     background-color: var(--darkgray);
     height: 160px;
@@ -40,7 +40,7 @@ header {
 }
 
 .headerLogo {
-    height: 120px;
+    height: 130px;
     width: 300px;
 }
 
@@ -95,7 +95,6 @@ a.exerciseLink {
     display: block;
     height: var(--ExerciseHeight);
     width: var(--ExerciseWidth);
-    font-family: 'Poppins', 'serif';
     text-decoration: none;
 }
 
@@ -182,16 +181,17 @@ footer {
 }
 
 .footerLogo {
-    height: 70px;
-    width: 160px;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    height: 130px;
+    width: 300px;
+    grid-row-start: 1;
+    grid-row-end: 2;
     grid-column-start: 1;
 }
 
 .footer.slogan {
     grid-row-start: 3;
     grid-column-start: 1;
+    text-align: center;
 }
 
 .footer.contact {
