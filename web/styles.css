@@ -265,3 +265,8 @@ footer {
         grid-row-start: 2;
     }
 }
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

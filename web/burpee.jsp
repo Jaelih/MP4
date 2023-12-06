@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Push_Up
-    Created on : Nov 30, 2023, 2:12:04 AM
+    Document   : burpee
+    Created on : Dec 6, 2023, 11:40:41 PM
     Author     : kirkb
 --%>
 
@@ -40,15 +40,19 @@
     </header>
     <body>
         <div class="exerciseGrid">
-            <p class="title" style="font-weight:500;">Push Up</p>
+            <p class="title" style="font-weight:500;">Burpee</p>
             <span style="width:80%; text-align: center;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bt5b9x9N0KU?si=vmL7sU12Yl8MO7yK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <span style="font-weight:600">Target Muscles</span>: Chest, Shoulders, Triceps
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mUYJqe_sJFE?si=EiKRw33d5X5nAkAF&amp;start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <span style="font-weight:600">Target Muscles</span>: Legs, Hips, Buttocks, Abdomen, Arm, Chest, Shoulders
             </span>
             <ol class="steps" style="width: 33vw;"> 
-                <li>With your legs extended back, place the hands below the shoulders, slightly wider than shoulder-width apart.
-                <li>Start bending your elbows and lower your chest until it’s just above the floor.
-                <li>Push back to the starting position. A 1-second push, 1-second pause, 2-second down count is ideal.
+                <li>Begin in a standing position.
+                <li>Drop into a squat.
+                <li>Kick your legs back into a high plank position.
+                <li>Lower toward the ground.
+                <li>Rise back to high plank.
+                <li>Return to a squat position.
+                <li>Jump!
                 <li>Repeat.
             </ol>
         </div>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Push_Up
-    Created on : Nov 30, 2023, 2:12:04 AM
+    Document   : jumpingJack
+    Created on : Dec 6, 2023, 11:43:19 PM
     Author     : kirkb
 --%>
 
@@ -40,15 +40,15 @@
     </header>
     <body>
         <div class="exerciseGrid">
-            <p class="title" style="font-weight:500;">Push Up</p>
+            <p class="title" style="font-weight:500;">Jumping Jack</p>
             <span style="width:80%; text-align: center;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bt5b9x9N0KU?si=vmL7sU12Yl8MO7yK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <span style="font-weight:600">Target Muscles</span>: Chest, Shoulders, Triceps
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UpH7rm0cYbM?si=E7lP1mCbXp9dKpIy&amp;start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <span style="font-weight:600">Target Muscles</span>: Quads, Calves, Shoulders
             </span>
             <ol class="steps" style="width: 33vw;"> 
-                <li>With your legs extended back, place the hands below the shoulders, slightly wider than shoulder-width apart.
-                <li>Start bending your elbows and lower your chest until it’s just above the floor.
-                <li>Push back to the starting position. A 1-second push, 1-second pause, 2-second down count is ideal.
+                <li>Stand straight with your feet together and hands by your sides.
+                <li>Jump up, spread your feet and bring both hands together above your head.
+                <li>Jump again and return to the starting position.
                 <li>Repeat.
             </ol>
         </div>
