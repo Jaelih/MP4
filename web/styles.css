@@ -131,14 +131,86 @@ div.exerciseDiv {
 
 
 .pushUp {
-    background-image: url("Pictures/PushUp.png");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/PushUp.png");
     background-position: center 60%;
-    background-size: var(--exerciseWidth);
+    background-size: 110%;
 }
 
 .diamondPushUp {
-    background-image: url("Pictures/DiamondPushUp.png");
-    background-size: var(--exerciseWidth);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/DiamondPushUp.png");
+    background-position: center 90%;
+    background-size: 110%;
+}
+
+.pullUp {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/PullUp.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.sitUp {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/SitUp.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.bicepCurl {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/BicepCurl.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.lateralRaise {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/LateralRaise.png");
+    background-position: center 0%;
+    background-size: 110%;
+}
+
+.squat {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/Squat.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.pistolSquat {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/PistolSquat.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.dumbellRow {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/DumbellRow.png");
+    background-position: center 20%;
+    background-size: 110%;
+}
+
+.legRaise {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/LegRaise.png");
+    background-position: center 60%;
+    background-size: 110%;
+}
+
+.burpee {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
+        url("Pictures/Burpee.png");
+    background-position: center 40%;
+    background-size: 110%;
+}
+
+.jumpingJack {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black), url("Pictures/JumpingJack.png");
+    background-position: center 20%;
+    background-size: 110%;
 }
 
 .exerciseText {
