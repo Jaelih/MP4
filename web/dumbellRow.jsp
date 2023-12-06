@@ -34,18 +34,19 @@
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
             <a href="" class="library headerOption">Library</a>
-            <a href="" class="library headerOption">Settings</a>
+            <a href="" class="settings headerOption">Settings</a>
         </div>
         <div class="blueLine"></div>
     </header>
     <body>
-        <div class="exerciseGrid">
+        <div class="descriptionGrid">
             <p class="title" style="font-weight:500;">Dumbell Row</p>
             <span style="width:80%; text-align: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/roCP6wCXPqo?si=8krxVZcBpEbfUylo&amp;start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
                 <span style="font-weight:600">Target Muscles</span>: Chest, Shoulders, Triceps
             </span>
-            <ol class="steps" style="width: 33vw;"> 
+            <ol class="steps" style="width: 60%;"> 
                 <li>Stand with your legs shoulder-width apart, and knees slightly bent. Hold a dumbbell in each hand, shoulder-width, with your palms facing each other. Bend over at a 45-degree angle.
                 <li>Pull the dumbbells up, toward the sides of your chest. Lift to the point your range of motion allows. Keep the wrists from moving as much as possible.
                 <li>Lower the weights in a controlled manner. 

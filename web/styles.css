@@ -16,17 +16,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     --black: #000000;
     
     --exerciseHeight: 200px;
-    --descriptionRows: 2;
 }
 
 @media(max-width: 1000px) {
     :root{
         --exerciseWidth: 80vw;
+        
         --exercisesRows: 12;
         --exercisesColumns: 1;
+        
         --descriptionColumns: 1;
+        
         --headerColumns: 3;
         --headerRows: 2;
+        
         --footerColumns: 1;
         --footerRows: 9;
     }
@@ -34,10 +37,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 @media(min-width: 1001px){
     :root{   
         --exerciseWidth: 40vw;
+        
         --exercisesRows: 6;
         --exercisesColumns: 2;
+        
         --descriptionColumns: 2;
+        
         --headerColumns: 5;
+        
         --footerColumns: 3;
         --footerRows: 4;
     }
@@ -357,12 +364,9 @@ div.exerciseDiv {
     margin: 0 0 20px 20px;
 }
 
-.exerciseGrid {
-    display: grid;
-    grid-template-columns: repeat(var(--descriptionColumns), 1fr);
-    grid-template-rows: 200px auto 100px;
-    justify-items: center;
-    align-items: center;
+.vidContainer {
+    background-color: gray;
+    width: 80%;
 }
 
 .title {
@@ -371,29 +375,54 @@ div.exerciseDiv {
     margin: 0;
 }
 
-.vidContainer {
-    background-color: gray;
-    width: 80%;
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1001px) {
+    .descriptionGrid {
+        display: grid;
+        grid-template-columns: repeat(var(--descriptionColumns), 1fr);
+        grid-template-rows: 200px auto 100px;
+        justify-items: center;
+        align-items: center;
+    }
+    
     .title {     
         grid-column-start: 1;
         grid-column-end: 3;
-    }
-    
-    .steps {
-        grid-column-start: 2;
-        grid-row-start: 2;
     }
     
     .vidContainer {
         grid-column-start: 1;
         grid-row-start: 2;
     }
+    
+    .steps {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
 }
 
-li {
-    margin-top: 20px;
-    margin-bottom: 20px;
+@media (max-width: 1000px) {
+    .descriptionGrid {
+        display: grid;
+        grid-template-columns: repeat(var(--descriptionColumns), 1fr);
+        grid-template-rows: 200px auto auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .title {     
+        grid-row-start: 1;
+    }
+       
+    .vidContainer {
+        grid-row-start: 2;
+    }
+    
+    .steps {
+        grid-row-start: 3;
+    }
 }

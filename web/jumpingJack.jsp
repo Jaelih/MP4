@@ -34,18 +34,19 @@
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
             <a href="" class="library headerOption">Library</a>
-            <a href="" class="library headerOption">Settings</a>
+            <a href="" class="settings headerOption">Settings</a>
         </div>
         <div class="blueLine"></div>
     </header>
     <body>
-        <div class="exerciseGrid">
+        <div class="descriptionGrid">
             <p class="title" style="font-weight:500;">Jumping Jack</p>
             <span style="width:80%; text-align: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/UpH7rm0cYbM?si=E7lP1mCbXp9dKpIy&amp;start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
                 <span style="font-weight:600">Target Muscles</span>: Quads, Calves, Shoulders
             </span>
-            <ol class="steps" style="width: 33vw;"> 
+            <ol class="steps" style="width: 60%;"> 
                 <li>Stand straight with your feet together and hands by your sides.
                 <li>Jump up, spread your feet and bring both hands together above your head.
                 <li>Jump again and return to the starting position.

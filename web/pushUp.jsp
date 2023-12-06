@@ -34,18 +34,19 @@
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
             <a href="" class="library headerOption">Library</a>
-            <a href="" class="library headerOption">Settings</a>
+            <a href="" class="settings headerOption">Settings</a>
         </div>
         <div class="blueLine"></div>
     </header>
     <body>
-        <div class="exerciseGrid">
+        <div class="descriptionGrid">
             <p class="title" style="font-weight:500;">Push Up</p>
             <span style="width:80%; text-align: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/bt5b9x9N0KU?si=vmL7sU12Yl8MO7yK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
                 <span style="font-weight:600">Target Muscles</span>: Chest, Shoulders, Triceps
             </span>
-            <ol class="steps" style="width: 33vw;"> 
+            <ol class="steps" style="width: 60%;"> 
                 <li>With your legs extended back, place the hands below the shoulders, slightly wider than shoulder-width apart.
                 <li>Start bending your elbows and lower your chest until it’s just above the floor.
                 <li>Push back to the starting position. A 1-second push, 1-second pause, 2-second down count is ideal.

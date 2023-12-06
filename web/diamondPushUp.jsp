@@ -34,18 +34,19 @@
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
             <a href="" class="library headerOption">Library</a>
-            <a href="" class="library headerOption">Settings</a>
+            <a href="" class="settings headerOption">Settings</a>
         </div>
         <div class="blueLine"></div>
     </header>
     <body>
-        <div class="exerciseGrid">
+        <div class="descriptionGrid">
             <p class="title" style="font-weight:500;">Diamond Push Up</p>
             <span style="width:80%; text-align: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/kGhDnFwMY3E?si=EHt32Mz2E_ety8kS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <span style="font-weight:600">Target Muscles</span>: Chest & Abdomen
+                <br>
+                <span style="font-weight:600">Target Muscles</span>: Chest, Abdomen
             </span>
-            <ol class="steps" style="width: 33vw;"> 
+            <ol class="steps" style="width: 60%;"> 
                 <li>Get into a standard push-up position. move your hands together so that your thumbs and index fingers are forming a diamond shape in the open area between your hands.
                 <li>Lower yourself down to the ground so that your chest almost touches your hands, pause, then push yourself back up.
                 <li>Repeat.

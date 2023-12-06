@@ -34,18 +34,19 @@
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
             <a href="" class="library headerOption">Library</a>
-            <a href="" class="library headerOption">Settings</a>
+            <a href="" class="settings headerOption">Settings</a>
         </div>
         <div class="blueLine"></div>
     </header>
     <body>
-        <div class="exerciseGrid">
+        <div class="descriptionGrid">
             <p class="title" style="font-weight:500;">Squat</p>
             <span style="width:80%; text-align: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/YaXPRqUwItQ?si=bL69EUp7lVoD1kUK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
                 <span style="font-weight:600">Target Muscles</span>: Abdomen, Thighs, Calves, Glutes
             </span>
-            <ol class="steps" style="width: 33vw;"> 
+            <ol class="steps" style="width: 60%;"> 
                 <li>Stand straight with feet hip-width apart.
                 <li>Tighten your stomach muscles.
                 <li>Lower down, as if sitting in an invisible chair.
