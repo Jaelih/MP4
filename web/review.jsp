@@ -35,11 +35,11 @@
     </header>
     <body>
         <div style="text-align: center; margin: 50px auto 100px auto;">
-            <span style="margin: auto; font-size: 4rem; font-weight: 500;">How was your experiece?</span>
+            <span style="margin: auto; font-size: 4rem; font-weight: 500;">How was your experience?</span>
         </div>
-        <form class="review" action="" method="">
+        <form class="review" action="ReviewHandler" method="POST">
             <div class="rate">
-                <input type="radio" id="star5" name="rate" value="5" />
+                <input type="radio" id="star5" name="rate" value="5" required/>
                 <label for="star5" title="Very Satisfied">5 stars</label>
                 <input type="radio" id="star4" name="rate" value="4" />
                 <label for="star4" title="Satisfied">4 stars</label>
@@ -50,7 +50,7 @@
                 <input type="radio" id="star1" name="rate" value="1" />
                 <label for="star1" title="Very Unsatisfied">1 star</label>
              </div>
-            <textarea id="comments "class="comments" placeholder="Comments/Suggestions (optional)"></textarea>
+            <textarea id="comments" class="comments" name="comments" placeholder="Comments/Suggestions (optional)"></textarea>
             <input id="submit" type="submit" value="Submit">
         </form>
     </body>
