@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>GitFit</title>
     </head>
     <header><img src="Pictures/GitFit_logo.png"><a href="">Activity Hub</a><a href="">Library</a><a href="">Settings</a></header>
     <body>

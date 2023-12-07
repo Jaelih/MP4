@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>push up</title>
+        <title>GitFit</title>
         <link href="styles.css" rel="stylesheet">
         
         <style>
