@@ -32,73 +32,97 @@
         <div class="exercisesGrid">
             <a class="exerciseLink" href="pushUp.jsp">
                 <div class="exerciseDiv pushUp">
-                    <p class="exerciseText" >Push Up<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Push Up<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="diamondPushUp.jsp">
                 <div class="exerciseDiv diamondPushUp">
-                    <p class="exerciseText" >Diamond Push Up<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Diamond Push Up<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="pullUp.jsp">
                 <div class="exerciseDiv pullUp">
-                    <p class="exerciseText" >Pull Up<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Pull Up<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="sitUp.jsp">
                 <div class="exerciseDiv sitUp">
-                    <p class="exerciseText" >Sit Up<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Sit Up<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="bicepCurl.jsp">
                 <div class="exerciseDiv bicepCurl">
-                    <p class="exerciseText" >Bicep Curl<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Bicep Curl<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="lateralRaise.jsp">
                 <div class="exerciseDiv lateralRaise">
-                    <p class="exerciseText" >Lateral Raise<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Lateral Raise<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="squat.jsp">
                 <div class="exerciseDiv squat">
-                    <p class="exerciseText" >Squat<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Squat<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="pistolSquat.jsp">
                 <div class="exerciseDiv pistolSquat">
-                    <p class="exerciseText" >Pistol Squat<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Pistol Squat<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="dumbellRow.jsp">
                 <div class="exerciseDiv dumbellRow">
-                    <p class="exerciseText" >Dumbell Row<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Dumbell Row<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="legRaise.jsp">
                 <div class="exerciseDiv legRaise">
-                    <p class="exerciseText" >Leg Raise<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Leg Raise<p>
+                    </div>
                 </div>
             </a>
             
             <a class="exerciseLink" href="burpee.jsp">
                 <div class="exerciseDiv burpee">
-                    <p class="exerciseText" >Burpee<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Burpee<p>
+                    </div>  
                 </div>
             </a>
             
             <a class="exerciseLink" href="jumpingJack.jsp">
                 <div class="exerciseDiv jumpingJack">
-                    <p class="exerciseText" >Jumping Jack<p>
+                    <div class="gradient">
+                        <p class="exerciseText" >Jumping Jack<p>
+                    </div>
                 </div>
             </a>
         </div>

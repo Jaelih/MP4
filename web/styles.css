@@ -260,6 +260,7 @@ a, a:visited {
     .exerciseText{      
         transition: 0.2s;
         color: var(--lightgray);
+        padding-top: 50px;
     }
 }
 
@@ -267,8 +268,11 @@ a:hover {
     .exerciseText{
         font-size: 3rem;
         transition: 0.2s;
-        
     }
+}
+
+a > .exerciseDiv > .gradient {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black 90%);
 }
 
 div.exerciseDiv {
@@ -280,12 +284,12 @@ div.exerciseDiv {
     overflow: hidden;
 }
 
-
+/*_______________________________________________________________*/
 .pushUp {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black),
-        url("Pictures/PushUp.png");
+    background-image: url("Pictures/PushUp.png");
     background-position: center 60%;
     background-size: 110%;
+    transition: 0.2s ;
 }
 
 .diamondPushUp {
@@ -293,6 +297,7 @@ div.exerciseDiv {
         url("Pictures/DiamondPushUp.png");
     background-position: center 90%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .pullUp {
@@ -300,6 +305,7 @@ div.exerciseDiv {
         url("Pictures/PullUp.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .sitUp {
@@ -307,6 +313,7 @@ div.exerciseDiv {
         url("Pictures/SitUp.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .bicepCurl {
@@ -314,6 +321,7 @@ div.exerciseDiv {
         url("Pictures/BicepCurl.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .lateralRaise {
@@ -321,6 +329,7 @@ div.exerciseDiv {
         url("Pictures/LateralRaise.png");
     background-position: center 0%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .squat {
@@ -328,6 +337,7 @@ div.exerciseDiv {
         url("Pictures/Squat.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .pistolSquat {
@@ -335,6 +345,7 @@ div.exerciseDiv {
         url("Pictures/PistolSquat.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .dumbellRow {
@@ -342,6 +353,7 @@ div.exerciseDiv {
         url("Pictures/DumbellRow.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .legRaise {
@@ -349,6 +361,7 @@ div.exerciseDiv {
         url("Pictures/LegRaise.png");
     background-position: center 60%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .burpee {
@@ -356,14 +369,16 @@ div.exerciseDiv {
         url("Pictures/Burpee.png");
     background-position: center 40%;
     background-size: 110%;
+    transition: 0.2s;
 }
 
 .jumpingJack {
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), black), url("Pictures/JumpingJack.png");
     background-position: center 20%;
     background-size: 110%;
+    transition: 0.2s;
 }
-
+/*______________________________________________________________________________*/
 .exerciseText {
     margin: 0 0 20px 20px;
 }
