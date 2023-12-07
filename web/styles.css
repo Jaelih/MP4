@@ -459,3 +459,73 @@ li {
     text-align: center;
     border-radius: 20px;
 }
+
+/* REVIEW PAGE */
+.review {
+    width: 500px;
+    height: 60vh;
+    margin: auto;
+}
+
+.rate {
+    width: 150px;
+    height: 46px;
+    margin: auto;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    display: none;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:var(--blue);
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: var(--lightgray);    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: var(--lightgray);  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: var(--darkgray);
+}
+
+.comments {
+    width: 100%;
+    height: 300px;
+    resize: none;
+    padding: 0;
+}
+
+textarea:-moz-placeholder, /* Firefox 18- */
+textarea::-moz-placeholder, /* Firefox 19+ */
+textarea:-ms-input-placeholder, /* IE 10+ */
+textarea::-webkit-input-placeholder, /* Webkit based */
+textarea::placeholder { /* Modern browsers */
+  color: black;  
+}
+
+input#submit {
+    background-color: var(--lightblue);
+    display: block;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    color: var(--lightgray);
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: auto 0 auto auto;
+}
