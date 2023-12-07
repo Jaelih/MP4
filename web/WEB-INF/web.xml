@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <context-param>
+        <param-name>Activity Hub</param-name>
+        <param-value>Activity Hub</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Library</param-name>
+        <param-value>Library</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Settings</param-name>
+        <param-value>Settings</param-value>
+    </context-param>
+    <context-param>
+        <param-name>slogan</param-name>
+        <param-value>Your Ultimate Workout Companion.</param-value>
+    </context-param>
+    <context-param>
+        <param-name>email</param-name>
+        <param-value>gitfit@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>number</param-name>
+        <param-value>09266531385</param-value>
+    </context-param>
+    <context-param>
+        <param-name>rights</param-name>
+        <param-value>© 2023 GitFit All rights reserved.</param-value>
+    </context-param>
     <servlet>
         <servlet-name>ReviewHandler</servlet-name>
         <servlet-class>GitFitPackage.ReviewHandler</servlet-class>

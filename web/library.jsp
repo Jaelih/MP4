@@ -23,9 +23,9 @@
     <header>
         <div class="headerGrid">
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
-            <a href="" class="activityHub headerOption">Activity Hub</a>
-            <a href="library.jsp" class="library headerOption">Library</a>
-            <a href="settings.jsp" class="settings headerOption">Settings</a>
+            <a href="" class="activityHub headerOption"><% out.print(getServletContext().getInitParameter("Activity Hub")); %></a>
+            <a href="library.jsp" class="library headerOption"><% out.print(getServletContext().getInitParameter("Library")); %></a>
+            <a href="settings.jsp" class="settings headerOption"><% out.print(getServletContext().getInitParameter("Settings")); %></a>
         </div>
     </header>
     <body>
@@ -106,11 +106,11 @@
     <footer>
         <div class="footerDiv">
             <img src="Pictures/GitFit_logo.png" class="footerLogo">
-            <p class="footer slogan"><span style="font-weight: 500;">Your Ultimate Workout<br>Companion.</span></p>
+            <p class="footer slogan"><span style="font-weight: 500;"><% out.print(getServletContext().getInitParameter("slogan")); %></span></p>
             <p class="footer contact" style="font-weight: 700;">Contact Us</b></p>
-            <p class="footer email"><span style="font-weight: 500;">EMAIL</span>: gitfit@gmail.com</p>
-            <p class="footer phone"><span style="font-weight: 500;">PHONE</span>: 09266531385</p>
-            <p class="footer copyright"><span style="font-weight: 500;">© 2023 GitFit All rights reserved.</p>
+            <p class="footer email"><span style="font-weight: 500;">EMAIL</span>: <% out.print(getServletContext().getInitParameter("email")); %></p>
+            <p class="footer phone"><span style="font-weight: 500;">PHONE</span>: <% out.print(getServletContext().getInitParameter("number")); %></p>
+            <p class="footer copyright"><span style="font-weight: 500;"><% out.print(getServletContext().getInitParameter("rights")); %></p>
         </div>
     </footer>
 </html>
