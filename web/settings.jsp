@@ -22,14 +22,19 @@
             .userInfoGrid span {
                 margin: 5px 0 5px 0;
             }
+            
+            a, a:visited, a:active{
+                text-decoration: none;
+                color: #FCFCFC;
+            }
         </style>
     </head>
     <header>
         <div class="headerGrid">
             <img src="Pictures/GitFit_logo.png" class="headerLogo">
             <a href="" class="activityHub headerOption">Activity Hub</a>
-            <a href="" class="library headerOption">Library</a>
-            <a href="" class="settings headerOption">Settings</a>
+            <a href="library.jsp" class="library headerOption">Library</a>
+            <a href="settings.jsp" class="settings headerOption">Settings</a>
         </div>
     </header>
     <body>
@@ -43,7 +48,7 @@
                 <span style="text-align: end;">BMI</span><span style="text-align: start;">##</span>
                 <span style="text-align: end;">age</span><span style="text-align: start;">##</span>
             </div>
-            <span class="settingsOption">Leave a Review</span>
+            <span class="settingsOption"><a href="review.jsp">Leave a Review</a></span>
             <div class="settingsOption logout">Logout</div>
         </div>
     </body>
