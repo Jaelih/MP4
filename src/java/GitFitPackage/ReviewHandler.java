@@ -64,11 +64,11 @@ public class ReviewHandler extends HttpServlet {
                 e.printStackTrace();
             }
             
+            response.sendRedirect("library.jsp");
             
             
             
-            
-            
+            // not used 
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
