@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File; 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -59,8 +61,14 @@ public class ReviewHandler extends HttpServlet {
             
             try {
             FileWriter writer = new FileWriter("reviews.txt", true);
-            writer.write(rating +" " + comment + "\n");
-            System.out.println("Writing to " + writer);
+            if (comment != null){
+                comment = comment.trim().replaceAll("[\\s]+", " ");
+                writer.write(rating + " " + comment + "\n");
+            }
+            else {
+                writer.write(rating + " \"\"\n");
+            }
+
             writer.close();
             System.out.println("Successfully wrote to the file.");
             } catch (IOException e) {
