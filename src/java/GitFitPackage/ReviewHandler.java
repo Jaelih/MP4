@@ -38,13 +38,15 @@ public class ReviewHandler extends HttpServlet {
             String rating = request.getParameter("rate");
             String comment = request.getParameter("comments");
             
+            System.out.println("Creating file to store reviews.");
+            
             try {
                 File file = new File("reviews.txt");
                 if (file.createNewFile()) {
-                    out.println("File created: " + file.getName());
+                    System.out.println("File created: " + file.getName());
                 } else {
-                    out.println("File already exists.");
-                    out.println(file.getAbsolutePath());
+                    System.out.print("File already exists in: ");
+                    System.out.println(file.getAbsolutePath());
                 }
             } 
             
@@ -54,9 +56,11 @@ public class ReviewHandler extends HttpServlet {
             }
             
             // writing the rating and comment into the file
+            
             try {
             FileWriter writer = new FileWriter("reviews.txt", true);
             writer.write(rating +" " + comment + "\n");
+            System.out.println("Writing to " + writer);
             writer.close();
             System.out.println("Successfully wrote to the file.");
             } catch (IOException e) {
