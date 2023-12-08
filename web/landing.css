@@ -1,0 +1,323 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 6, 23, 10:34:59 PM
+    Author     : Kendot
+*/
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #171D2B;
+   
+  }
+  
+  body{
+    font-family: Poppins;
+    color: white;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+  font-weight: 700;
+  font-size: 8rem;
+  text-align: center;
+  }
+  h1 span{
+    display: block;
+    
+  }
+  
+  h2{
+    font-size: 4.2rem;
+  }
+  #navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #D9D9D9;
+  }
+  #spacer{
+    width: 100%;
+    height: 15rem;
+  }
+  #logo{
+    width: 300px;
+    height: auto;
+    margin-right: 43rem;
+  }
+  
+  #welcome-section p{
+    font-size: 1.875rem;
+    text-align: center;
+    padding-bottom: 75px;
+  }
+  #welcome-section p span{
+    display: block;
+  }
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #171D2B;
+    margin-bottom: 20rem;
+  }
+  button{ 
+    width: 360px;
+    height: 72px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  #button-div{
+    display: flex;
+  }
+  #tabs{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    
+  }
+  li{
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  #developers{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #171D2B;
+    padding: 5rem 2rem;
+    line-height: 2rem;
+    margin-bottom: 10rem;
+  }
+
+  #members{
+    width: 442px;
+    height: 442px;
+  }
+  #memdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #developers p{
+    font-size: 1.875rem;
+    margin: 0.625rem;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #D9D9D9;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #footer-logo{
+    width: 300px;
+    height: auto;
+
+  }
+  #f-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #f-div p{
+   position: relative;
+   bottom: 3.5rem;
+
+  }
+
+  #f-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-top: 2rem;
+  }
+
+
+  #tagline{
+    text-align: center;
+    color: black;
+
+  }
+  .info{
+    color: black; 
+    font-size: 1.25rem;
+  }
+  #contact{
+    margin-bottom: 80px;
+    font-size: 1rem;
+  }
+  #f-div2 span{
+    display: block;
+    margin-bottom: 30px;
+   
+  }
+  #f-div span{
+    display: block;
+   
+  }
+  @media(max-width: 800px)
+  {
+    #members{
+      width: 100px;
+      height: 100px;
+    }
+    h1{
+      font-size: 6rem;
+    }
+    #developers p{
+      font-size: 1rem;
+    }
+    #f-div{
+      width: 30%
+    }
+    #f-div2{
+      width: 20%;
+    }
+    .info{
+      font-size: 0.8rem;
+    }
+    button{
+      width: 200px;
+      height: 30px;
+      font-size: 0.8rem;
+
+    }
+  }
+
+  
+ /* COPY PASTED BY KIRK 
+    FOR FOOTER*/
+ footer {
+    background-color: var(--darkgray);
+    height: auto;
+    width: 100vw;
+    color: black;
+}
+
+.footerDiv {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(var(--footerColumns), 1fr);
+    grid-template-rows: repeat(var(--footerRows), 40px);
+    justify-items: center;
+}
+
+@media (min-width: 1001px){
+    .footerLogo {
+        height: 130px;
+        width: 300px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+    }
+
+    .footer.slogan {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        text-align: center;
+        width: 200px;
+    }
+
+    .footer.contact {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        align-self: end;
+        margin: 0;
+    }
+
+    .footer.email {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        align-self: center;
+        margin: 0;
+    }
+
+    .footer.phone {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        align-self: start;
+        margin: 0;
+    }
+
+    .footer.copyright {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        align-self: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .footerLogo {
+        height: 130px;
+        width: 300px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .footer.slogan {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        text-align: center;
+        width: 200px;
+    }
+
+    .footer.contact {
+        grid-row-start: 6;
+        align-self: end;
+        margin: 0;
+    }
+
+    .footer.email {
+        grid-row-start: 7;
+        align-self: center;
+        margin: 0;
+    }
+
+    .footer.phone {
+        grid-row-start: 8;
+        align-self: start;
+        margin: 0;
+    }
+
+    .footer.copyright {
+        grid-row-start: 9;
+        align-self: center;
+        margin: 0;
+    }
+}
+
