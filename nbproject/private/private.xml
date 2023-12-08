@@ -4,9 +4,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/styles.css</file>
+            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/review.jsp</file>
+            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/landing.css</file>
             <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/pushUp.jsp</file>
+            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/landing.jsp</file>
+            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/settings.jsp</file>
             <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/web/library.jsp</file>
+            <file>file:/C:/Users/kirkb/Documents/NetBeansProjects/Bitancur_Braga__Calvo_MP4Project/src/java/GitFitPackage/ReviewHandler.java</file>
         </group>
     </open-files>
 </project-private>

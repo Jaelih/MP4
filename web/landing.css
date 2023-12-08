@@ -217,10 +217,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     }
   }
 
-  
- /* COPY PASTED BY KIRK 
-    FOR FOOTER*/
- footer {
+  /* footer css */
+  footer {
     background-color: var(--darkgray);
     height: auto;
     width: 100vw;
@@ -320,4 +318,32 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
         margin: 0;
     }
 }
+/* end of footer css */
+
+/* variables needed by footer */
+:root {
+    --darkblue: #212A3E;
+    --blue: #2D4C89;
+    --lightblue: #8C9DBE;
+    --darkgray: #D9D9D9;
+    --gray: #ECEDEE;
+    --lightgray: #FCFCFC;
+    --black: #000000;
+    
+    --exerciseHeight: 200px;
+}
+
+@media(max-width: 1000px) {
+    :root{
+        --footerColumns: 1;
+        --footerRows: 9;
+    }
+}
+@media(min-width: 1001px){
+    :root{   
+        --footerColumns: 3;
+        --footerRows: 4;
+    }
+}
+/* end of variables needed by footer */
 
