@@ -40,13 +40,13 @@
     <body>
         <div class="settingsFlex">
             <span class="settingsOption">User Information</span>
-            <span style="grid-column-start: 1; grid-column-end: 3;">user@gmail.com</span>
+            <span style="grid-column-start: 1; grid-column-end: 3;"><% out.print((String)session.getAttribute("email")); %></span>
             <div class="userInfoGrid">            
-                <span style="text-align: end;">started</span><span style="text-align: start;">mm/dd/yyyy</span>
-                <span style="text-align: end;">weight</span><span style="text-align: start;">##</span>
-                <span style="text-align: end;">height</span><span style="text-align: start;">##</span>
-                <span style="text-align: end;">BMI</span><span style="text-align: start;">##</span>
-                <span style="text-align: end;">age</span><span style="text-align: start;">##</span>
+                <span style="text-align: end;">Date created</span><span style="text-align: start;"><% out.print((String)session.getAttribute("date")); %></span>
+                <span style="text-align: end;">Weight</span><span style="text-align: start;"><% out.print((String)session.getAttribute("weight")); %></span>
+                <span style="text-align: end;">Height</span><span style="text-align: start;"><% out.print((String)session.getAttribute("height")); %></span>
+                <span style="text-align: end;">BMI</span><span style="text-align: start;"><% out.print((String)session.getAttribute("bmi")); %></span>
+                <span style="text-align: end;">Age</span><span style="text-align: start;"><% out.print((String)session.getAttribute("age")); %></span>
             </div>
             <span class="settingsOption"><a href="review.jsp">Leave a Review</a></span>
             <div class="settingsOption logout">Logout</div>
