@@ -37,7 +37,7 @@
         <div style="text-align: center; margin: 50px auto 100px auto;">
             <span style="margin: auto; font-size: 4rem; font-weight: 500;">How was your experience?</span>
         </div>
-        <form class="review" action="ReviewHandler" method="POST">
+        <form class="review form" action="ReviewHandler" method="POST">
             <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" required/>
                 <label for="star5" title="Very Satisfied">5 stars</label>

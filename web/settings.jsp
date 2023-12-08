@@ -49,7 +49,7 @@
                 <span style="text-align: end;">Age</span><span style="text-align: start;"><% out.print((String)session.getAttribute("age")); %></span>
             </div>
             <span class="settingsOption"><a href="review.jsp">Leave a Review</a></span>
-            <div class="settingsOption logout">Logout</div>
+            <span class="settingsOption"><a class="logout" href="landing.jsp">Logout</a></span>
         </div>
     </body>
     <footer>

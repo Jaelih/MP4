@@ -478,17 +478,22 @@ li {
     font-weight: 500;
 }
 
-.logout {
-    background-color: var(--gray);
-    color: red;
-    width: 180px;
-    height: 60px;
-    text-align: center;
-    border-radius: 10px;
+.settingsOption:hover > .logout {
+    text-shadow: 0 0 5px red;
+    transition: 0.1s;
+}
+
+.settingsOption:hover > a {
+    text-shadow: 0 0 5px var(--lightgray);
+    transition: 0.1s;
+}
+
+.settingsOption > a {
+    transition: 0.3s;
 }
 
 /* REVIEW PAGE */
-.review {
+.review.form {
     width: 500px;
     height: 60vh;
     margin: auto;
